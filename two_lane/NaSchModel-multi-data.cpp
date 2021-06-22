@@ -452,7 +452,7 @@ int main(int argc, char **argv)
     result.open(fileName, std::ios::out);
     //Start simulate
     result << 0 << " " << 0 << std::endl;
-    for (int numberOfCar = 1; numberOfCar <= length; numberOfCar++)
+    for (int numberOfCar = 1; numberOfCar <= length * laneNum; numberOfCar++)
     {
         double density = double(numberOfCar) / length;
         double vel = 0;
