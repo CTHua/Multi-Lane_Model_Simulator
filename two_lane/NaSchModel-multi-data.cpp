@@ -454,7 +454,7 @@ int main(int argc, char **argv)
     result << 0 << " " << 0 << std::endl;
     for (int numberOfCar = 1; numberOfCar <= length * laneNum; numberOfCar++)
     {
-        double density = double(numberOfCar) / length;
+        double density = double(numberOfCar) / length / laneNum;
         double vel = 0;
         double *usage = new double[laneNum];
         for (int independent = 1; independent <= average; independent++)
