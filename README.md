@@ -2,4 +2,5 @@
 1092 NCCU Computational Physics Final Presentation
 
 
-# Install
+## Install
+`git clone`
