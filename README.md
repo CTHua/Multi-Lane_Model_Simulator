@@ -11,10 +11,10 @@ Then you just need to `make` and run the program named `x_lane_demo`.
 
 ## Data
 **excute the `x_lane_data` program.**
-### One Lane
-
+### One Lane 
+data format
 (density) (flow) (average_velocity)
 
 ### Two Lane
-
+data format
 (density) (flow) (average_velocity) (lane one usage) (lane two usage)
